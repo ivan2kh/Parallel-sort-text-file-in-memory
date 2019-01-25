@@ -1,7 +1,7 @@
 ## Parallel sort text file in memory
 
 The program allocates memory to fit the complete input file.
-Furthermore extra memory required for supplement structures: about 12 bytes per line.
+Furthermore extra memory required for supplement structures: about 24 bytes per line.
 
 When the file is loaded we calculate **Sorting Integer Key** for each line. 
 **SIK** is a **Big Endian** integer value representing beginning of the line.
